@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    background-color: #ffffff;
+    font-family: Times New Roman;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.resume{
+    width: 600px;
+    height: 900px;
+    background-color: #ffffff;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #7e7c7c;
+}
+
+.resume-photo{
+    display: block;
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.resume-title{
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 0.1px;
+}
+
+.resume-cont{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 2px;
+    font-size: 15px;
+    color: black;
+}
+
+
+.conts{
+    text-decoration: none;
+    color: black;
+    transition: color .2s linear .2s;
+
+}
+.conts:hover{
+    color: #1d279b;
+    text-decoration-line: underline;
+    opacity: 0.8;
+}
+
+.pr{
+    display: block;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.resume-inf{
+    display: flex;
+    margin: 0 auto;
+    width: 550px;
+    height: 150px;
+}
+
+.lang{
+    height: 120px;
+}
+.social-media{
+    display: block;
+    width: 170px;
+    height: 100px;
+}
+
+.summary{
+    display: block;
+    width: 370px;
+    height: 100px;
+}
+.summary-inf{
+    text-align: justify;
+    line-height: normal;
+    padding-left: 0;
+    list-style-position: inside;
+}
+.experience{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.media-block{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 15px;
+    justify-content: flex-start;
+}
+
+.media{
+    font-size: 15px;
+    text-align: left;
+}
+
+.photo1{
+    display: inline-block;
+    width: 20px;
+    height: 100px;
+}
+.photo2{
+    width: 25px;
+    height: 100px
+}
+.photo3{
+    width: 20px;
+    height: 70px;
+}
+.photo4{
+    width: 25px;
+    height: 50px;
+}
+.com-photo{
+    width: 20px;
+    height: 20px;
+}
+.horis{
+    width: 550px;
+}
+.vert{
+    height: 25px;
+    margin: 0 25px;
+}
